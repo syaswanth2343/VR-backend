@@ -1,0 +1,9 @@
+.git
+.gitignore
+.gradle
+build
+**/build
+.idea
+*.iml
+.vscode
+data
