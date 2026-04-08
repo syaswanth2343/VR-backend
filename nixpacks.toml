@@ -1,0 +1,4 @@
+[variables]
+# Ensures the build runs Gradle on a compatible JDK in Railway (Nixpacks).
+NIXPACKS_JAVA_VERSION = "17"
+
