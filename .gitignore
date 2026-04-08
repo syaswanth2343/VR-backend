@@ -39,3 +39,8 @@ out/
 ### Embedded H2 database files (local persistence) ###
 /data/*.mv.db
 /data/*.trace.db
+
+### Local secrets (never commit) ###
+railway.env
+.env
+.env.local
