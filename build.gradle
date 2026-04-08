@@ -9,8 +9,6 @@ version = '0.0.1-SNAPSHOT'
 
 java {
 	toolchain {
-		// Railway/Nixpacks commonly builds with modern JDKs; using 17 avoids
-		// "Unsupported class file major version" when Gradle plugins require it.
 		languageVersion = JavaLanguageVersion.of(17)
 	}
 }
